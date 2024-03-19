@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Interne_technical_task_bodnarovska/static/css/main.69744142.css",
+    "main.js": "/Interne_technical_task_bodnarovska/static/js/main.63d06bd3.js",
+    "static/media/background.png": "/Interne_technical_task_bodnarovska/static/media/background.66c8bf03a56529399d85.png",
+    "index.html": "/Interne_technical_task_bodnarovska/index.html",
+    "main.69744142.css.map": "/Interne_technical_task_bodnarovska/static/css/main.69744142.css.map",
+    "main.63d06bd3.js.map": "/Interne_technical_task_bodnarovska/static/js/main.63d06bd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69744142.css",
+    "static/js/main.63d06bd3.js"
+  ]
+}
