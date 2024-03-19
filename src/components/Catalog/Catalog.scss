@@ -1,0 +1,93 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.catalog div {
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.catalog h2 {
+    color: rgb(52, 52, 52);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.catalog p {
+    color: rgb(98, 98, 98);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.catalog button {
+    padding: 20px 35px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .catalog div {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .catalog div {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .catalog {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .catalog h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .catalog p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+    .catalog button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+

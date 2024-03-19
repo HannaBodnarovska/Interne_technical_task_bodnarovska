@@ -1,0 +1,68 @@
+.container {
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 54px;
+}
+
+.subscribe__title {
+    color: rgb(52, 52, 52);
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subscribe__text {
+    color: rgb(52, 52, 52);
+    max-width: 570%;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subscribe__form {
+    position: relative;
+}
+
+.subscribe__input {
+    max-width: 100%;
+    width: 570px;
+    border: 1px solid rgb(98, 98, 98);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 13px 18px;
+    color: rgb(149, 149, 149);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.subscribe__button {
+    position: absolute;
+    right: 0;
+    padding: 13px;
+    border-radius: 15px;
+    background-color: rgb(98, 98, 98);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
